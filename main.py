@@ -83,6 +83,7 @@ def main():
     for t in range(1,5):
         input_name = "test" + str(t) + ".txt"
         output_name = "result" + str(t) + ".txt"
+        print("Test " + str(t) + "...")
 
         with open(input_name, "r+") as input_file:
             with open(output_name, "w+") as output_file:
